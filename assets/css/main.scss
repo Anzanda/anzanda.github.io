@@ -6,3 +6,16 @@
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+@font-face {
+    font-family: 'NanumSquare';
+    src: url('/assets/fonts/NanumSquareL.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'RIDIBatang';
+    src: url('/assets/fonts/RIDIBatang.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+}
