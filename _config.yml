@@ -265,3 +265,8 @@ defaults:
       comments:  true
       share: true
       related: true
+
+# dark mode추가할려구
+dark_theme_toggle        : true
+footer_scripts:
+  - /assets/js/custom/dark-theme.js
